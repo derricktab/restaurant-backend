@@ -1,0 +1,45 @@
+```markdown
+# Express Backend Server
+
+This project is an Express.js-based backend server for a restaurant management system. It handles RESTful API requests for managing restaurant data.
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher recommended)
+- [npm](https://www.npmjs.com/) (usually comes with Node.js)
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone <your-backend-repo-url>
+cd <your-backend-directory>
+```
+
+2. Install the necessary dependencies:
+
+```bash
+npm install
+```
+
+## Running the Server
+
+To start the server, run:
+
+```bash
+node server.js
+```
+
+By default, the server will run on [http://localhost:5000](http://localhost:5000). You can access the API endpoints at this base URL.
+
+## Endpoints
+
+The server provides the following RESTful endpoints:
+
+- `GET /restaurants`: Fetches a list of all restaurants.
+- `POST /restaurants`: Adds a new restaurant.
+- `PUT /restaurants/:id`: Updates an existing restaurant.
+- `DELETE /restaurants/:id`: Deletes a restaurant.
